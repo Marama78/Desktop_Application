@@ -1,0 +1,7 @@
+D:\developpement\coder_data_manager\bin\Release\coder_data_manager.dll
+D:\developpement\coder_data_manager\bin\Release\coder_data_manager.pdb
+D:\developpement\coder_data_manager\obj\Release\coder_data_manager.Properties.Resources.resources
+D:\developpement\coder_data_manager\obj\Release\coder_data_manager.csproj.GenerateResource.cache
+D:\developpement\coder_data_manager\obj\Release\coder_data_manager.csproj.CoreCompileInputs.cache
+D:\developpement\coder_data_manager\obj\Release\coder_data_manager.dll
+D:\developpement\coder_data_manager\obj\Release\coder_data_manager.pdb

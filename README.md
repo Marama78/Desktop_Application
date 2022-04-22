@@ -8,7 +8,7 @@ Malgré la documentation technique que j'avais rédigé, je me retrouvais très 
 
 J'ai donc décidé de coder un éditeur de texte qui me permet de ranger un peu tout çà.
 
-//--------------------------------------------
+------------------------------------------------------------------------------------------------
 l'idée :
 
 Je me suis inspiré d'un livre et de sa table des matières. L'utilisateur créé des "livres" dans lesquels il créé des "classeurs" pour enfin y rédiger des "pages".
@@ -19,7 +19,7 @@ Celà m'a coûté 1 mois  de formation et de développement tout compris.
 
 Depuis qu'il est fonctionnel, je peux enfin recycler tout mes codes sources et y accéder en quelques clics.
 
-//---------------------------------------------
+------------------------------------------------------------------------------------------------
 Pour la gestion des données, j'ai refusé d'utiliser mySQL. 
 Parce que je n'y comprend rien (pour l'instant) et je trouve que c'est un peu trop compliqué.
 J'ai donc organisé mes propres données avec des fichiers .txt et .odt (déguisés en .ini , .dat)
@@ -44,7 +44,7 @@ le programme gère des clés unique pour trois familles :
 Donc les clés ne doivent pas être identiques.
 
 ------------------------------------------------------------------------------------------------
-.../data/data_book_ {clé classeur} .dat
+.../data/data_book_ + {clé classeur} + .dat
 
 Ce fichier est créé automatiquement à chaque fois que l'on créé un nouveau BOOK.
 C'est un simple fichier .txt déguisé en .dat
@@ -55,7 +55,8 @@ la grammaire:
   
 la clé du classeur est composé de la clé du book et d'une itération:
 
-  {clé book} + '_' + {iteration}
+  {clé classeur} + '_' + {iteration}
+  
 ------------------------------------------------------------------------------------------------
 .../data/data_book_ {clé book}/ ...
 
